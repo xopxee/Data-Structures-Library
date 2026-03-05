@@ -76,7 +76,7 @@
 
 #define push(a, b) _Generic((a), 		\
 	node**:		push_node,				\
-	Dll*:	push_dll,				\
+	Dll*:		push_dll,				\
 	Stack*:		stack_push				\
 	)(a, b)
 
